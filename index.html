@@ -1,0 +1,49 @@
+<!Doctype html>
+<html>
+    <head>
+        <title> Project 147 </title>
+        <script src = 'https://aframe.io/releases/1.0.4/aframe.min.js'></script>
+    </head>
+    <body>
+        <a-scene background = 'color: black'>
+
+            <a-sky src = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-wnFjVhHYBjrivnhuIZVPHmq06IUEN2StrALNsJuDZ31b4TDk5X8YdwT4D9kLhvjVTqs&usqp=CAU'></a-sky>
+            <a-entity>
+                <a-plane position = '0 -1 -7' rotation="-90 0 0" width="13" height="4" src = "floor.jpg">
+                    
+                </a-plane>
+            </a-entity>   
+            <a-entity>       
+                <a-plane position = '0 3 -9' rotation="0 0 0" width="13" height="8" src = "wallpaper.jpg">
+
+                    <a-box position = '0 0 -0.09' src = 'frame_2.png' scale = '3 5 0.2'></a-box>
+                    <a-box position = '-3.3 0 -0.05' src = 'frame_1.png' scale = '3 5 0.2'></a-box>
+                    <a-box position = '3.3 0 -0.07' src = 'frame_3.png' scale = '3 5 0.2'></a-box>
+
+                    <a-cylinder position = '-4.9 -3 0.5' scale = '0.05 1.8 0.05' rotation = '15 0 0' src = 'chair.png'></a-cylinder>
+                    <a-cylinder position = '-6 -3 0.5' scale = '0.05 1.8 0.05' rotation = '10 0 0' src = 'chair.png'></a-cylinder>
+                    <a-cylinder position = '-4.9 -3 2.3' scale = '0.05 1.8 0.05' rotation = '345 0 0' src = 'chair.png'></a-cylinder>
+                    <a-cylinder position = '-6 -3 2.3' scale = '0.05 1.8 0.05' rotation = '350 0 0' src = 'chair.png'></a-cylinder>
+                    <a-cylinder position = '-5.4 -2.1 1.5' rotation = '0 0 90' scale = '0.15 1.6 1' src = 'Cushions.png'></a-cylinder>
+                    
+
+                    <a-box position = '5.3 -3.3 1' src = 'sofa.png' scale = '1.5 1.2 1'></a-box>
+                    <a-box position = '5.3 -2.55 1' src = 'Cushions.png' scale = '1.4 0.3 0.9'></a-box>
+
+                    <a-cylinder position = '-5 -3.3 3.8' src = 'sofa.png' scale = '0.8 1 0.3'></a-cylinder>
+                    <a-cylinder position = '-5 -2.7 3.8' src = 'Cushions.png' scale = '0.75 0.2 0.25'></a-cylinder>
+
+                    <a-cylinder position = '-3.5 -3.9 1.8' scale = '0.5 0.05 0.5' src = 'chair.png'></a-cylinder>
+                    <a-cylinder position = '-3.5 -3.5 1.8' scale = '0.1 1 0.1' src = 'chair.png'></a-cylinder>
+                    <a-cylinder position = '-3.5 -2.9 1.8' scale = '0.5 0.05 0.5' src = 'chair.png'></a-cylinder>
+                    <a-cylinder position = '-3 -2.2 1.8' rotation = '0 0 90' scale = '0.7 0.05 0.5' src = 'chair.png'></a-cylinder>
+                    <a-cylinder position = '-3.5 -2.8 1.8' scale = '0.4 0.08 0.4' src = 'Cushions.png'></a-cylinder>
+
+
+
+                    <a-box position = '0 -4 0' scale = '6 0.1 6' src = 'Mat.png'></a-box>
+                </a-plane>
+            </a-entity>       
+        </a-scene>
+    </body>
+</html>
